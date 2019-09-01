@@ -199,6 +199,7 @@ a:hover {
   transition: all .25s ease-in-out;
   cursor: pointer;
   border: 1px solid #222;
+  border-radius: 0;
   padding: 6px 12px;
   font-size: 18px;
   line-height: 21px;
