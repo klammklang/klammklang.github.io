@@ -156,6 +156,9 @@ a:hover {
   margin-top: 15px;
   /*line-height: 25px;*/
 }
+.info p:last-child {
+  margin-bottom: 0;
+}
 @media only screen and (min-width: 750px) {
   p {
     margin-bottom: 20px;
