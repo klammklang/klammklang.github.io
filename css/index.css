@@ -64,6 +64,9 @@ a:hover {
   display: -ms-flexbox;
   display: flex;
 }
+.wrapper-100 {
+  flex-direction: column;
+}
 .wrapper-2-col {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -162,6 +165,51 @@ a:hover {
 .info p:last-child {
   margin-bottom: 0;
 }
+.subscribe {
+  margin-top: 10px;
+}
+.subscribe-wrapper {
+  display: flex;
+}
+.subscribe input.email {
+  display: block;
+  position: relative;
+  color: #222;
+  width: 100%;
+  appearance: none;
+  padding: 6px 0;
+  border: none;
+  border-bottom: 1px solid #222;
+  text-align: left;
+  font-size: 18px;
+  line-height: 21px;
+  font-family: 'plaidm', monospace;
+  font-weight: normal;
+}
+.subscribe input.email:focus {
+  outline: none;
+  caret-color: #222;
+}
+.subscribe input.email::placeholder {
+  color: #222;
+}
+.subscribe .button {
+  user-select: none;
+  outline: none;
+  transition: all .25s ease-in-out;
+  cursor: pointer;
+  border: 1px solid #222;
+  padding: 6px 12px;
+  font-size: 18px;
+  line-height: 21px;
+  font-family: 'plaidm', monospace;
+  margin-left: 10px;
+  background: transparent;
+}
+.subscribe .button:hover {
+  background: #222;
+  color: #fff;
+}
 @media only screen and (min-width: 750px) {
   p {
     margin-bottom: 20px;
@@ -177,6 +225,9 @@ a:hover {
   }
   .hidden-desktop {
     display: none;
+  }
+  .wrapper-100 {
+    flex-direction: row;
   }
   .wrapper-2-col {
     -webkit-box-orient: horizontal;
@@ -228,5 +279,8 @@ a:hover {
   }
   .tracklist {
     margin-top: 20px;
+  }
+  .subscribe {
+    margin-top: -7px;
   }
 }
