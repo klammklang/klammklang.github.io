@@ -211,6 +211,9 @@ a:hover {
   background: #222;
   color: #fff;
 }
+.footer {
+  margin-top: -10px;
+}
 @media only screen and (min-width: 750px) {
   p {
     margin-bottom: 20px;
@@ -283,5 +286,8 @@ a:hover {
   }
   .subscribe {
     margin-top: -7px;
+  }
+  .footer {
+    margin-top: -20px;
   }
 }
